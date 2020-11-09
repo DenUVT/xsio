@@ -3,8 +3,10 @@ import pygame as pg
 import sys
 import time
 from pygame.locals import *
+from hfunction import *
 
 # declaring the global variables
+global location
 
 # for storing the 'x' or 'o'
 # value as character
@@ -150,7 +152,7 @@ def user_click():
     # get column of mouse click (1-3)
     if (x < width / 3):
         col = 1
-        #print(col)
+        # print(col)
     elif (x < width / 3 * 2):
         col = 2
 
@@ -184,7 +186,9 @@ def user_click():
 
 
 def drawXO(row, col):
-    global board, XO
+    check_win()
+
+    global board, XO, location
 
     # for the first row, the image
     # should be pasted at a x coordinate
@@ -223,14 +227,59 @@ def drawXO(row, col):
         # (pos_y, posx) defined in the
         # above code
         screen.blit(x_img, (posy, posx))
+
+
+        check_win()
+
         XO = 'o'
+
+        list_score = []
+        XY = []
+        for i in generateNextMoves(board):
+            for j in i:
+                print(j)
+            list_score.append(hfunction(i))
+        # for i in range(0, 3):
+        #     for j in range(0, 3):
+
+        XY = generateNextMovesXY(board)
+        print(XY)
+
+
+
+
+        print(list_score)
+
+        for i in range(0,len(list_score)):
+            if list_score[i] == max(list_score):
+                location=XY[i]
+                print(XY[i])
+                break
+        #drawXO(location[0]+1,location[1]+1)
+        #XO='o'
+        posx=location[0]+1
+        posy=location[1]+1
+        print(location)
+        print(posx,posy)
+        drawXO(posx, posy)
+        #screen.blit(o_img, (posy, posx))
+        #screen.blit(o_img, (posy, posx))
+        #check_win()
+        #XO='o'
+
+
+
 
     else:
         pass
+        #drawXO(location[0]+1,location[1]+1)
 
         # AI FUNCTION
         screen.blit(o_img, (posy, posx))
         XO = 'x'
+        return None
+
+
     pg.display.update()
 
 
@@ -251,7 +300,7 @@ game_initiating_window()
 
 while (True):
     for event in pg.event.get():
-        #event_pressed = False
+        # event_pressed = False
         if event.type == QUIT:
             pg.quit()
             sys.exit()
@@ -260,4 +309,4 @@ while (True):
             if (winner or draw):
                 reset_game()
     pg.display.update()
-    #CLOCK.tick(fps)
+    # CLOCK.tick(fps)
