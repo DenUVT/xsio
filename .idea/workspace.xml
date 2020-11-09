@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be44b0be-6b2d-4619-8a70-7e2037b8d317" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hfunction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xsio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xsio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hfunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/hfunction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/requires.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/cacert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/xsio$main.coverage" NAME="main Coverage Results" MODIFIED="1604616092573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xsio$main.coverage" NAME="main Coverage Results" MODIFIED="1604932665002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xsio$hfunction.coverage" NAME="hfunction Coverage Results" MODIFIED="1604614045448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -59,23 +40,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="932" />
+          <entry key="py" value="1006" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="932" />
+          <entry key="Python" value="1006" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="248" lean-forward="true" selection-start-line="248" selection-end-line="248" />
+            <state relative-caret-position="-1284">
+              <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
               <folding>
                 <element signature="e#36#55#0" expanded="true" />
               </folding>
@@ -83,15 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hfunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="37" lean-forward="true" selection-end-line="37" />
-              <folding>
-                <marker date="1604615344629" expanded="true" signature="396:398" ph="..." />
-                <marker date="1604615344629" expanded="true" signature="440:831" ph="..." />
-              </folding>
+            <state relative-caret-position="773">
+              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -118,8 +95,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hfunction.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/hfunction.py" />
       </list>
     </option>
   </component>
@@ -130,8 +107,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="175" />
-    <option name="y" value="55" />
+    <option name="x" value="-52" />
+    <option name="y" value="-8" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -245,12 +222,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.164859" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,34 +252,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/hfunction.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pygame/display.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1028">
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1028" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1331260527/pygame/display.py">
@@ -312,24 +274,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hfunction.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="37" lean-forward="true" selection-end-line="37" />
+        <state relative-caret-position="-1284">
+          <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
           <folding>
-            <marker date="1604615344629" expanded="true" signature="396:398" ph="..." />
-            <marker date="1604615344629" expanded="true" signature="440:831" ph="..." />
+            <element signature="e#36#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/hfunction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="248" lean-forward="true" selection-start-line="248" selection-end-line="248" />
-          <folding>
-            <element signature="e#36#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="773">
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
         </state>
       </provider>
     </entry>

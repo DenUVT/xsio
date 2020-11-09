@@ -41,19 +41,19 @@ def hfunction(board):
     # block
     for i in range(0, 3):
 
-        score -= 10 if board[i][:].count('x') == 2 and board[i][:].count(None) == 1 else 0
+        score -= 50 if board[i][:].count('x') == 2 and board[i][:].count(None) == 1 else 0
        # for j in range (0,3):
         res.append([sub[i] for sub in board]) #column
     for i in range ( 0,3):
-        score -= 10 if res[i].count('x') == 2 and res[i].count(None) == 1 else 0
+        score -= 50 if res[i].count('x') == 2 and res[i].count(None) == 1 else 0
         #res.clear()
 
-    score -= 10 if board[1][1] is 'x' and board[2][2] is 'x' and board[0][0] is None or \
+    score -= 50 if board[1][1] is 'x' and board[2][2] is 'x' and board[0][0] is None or \
                    board[0][0] is 'x' and board[1][1] is 'x' and board[2][2] is None or \
                    board[2][2] is 'x' and board[0][0] is 'x' and board[1][1] is None \
         else 0
 
-    score -= 10 if board[1][1] is 'x' and board[2][0] is 'x' and board[0][2] is None or \
+    score -= 50 if board[1][1] is 'x' and board[2][0] is 'x' and board[0][2] is None or \
                    board[0][2] is 'x' and board[1][1] is 'x' and board[2][0] is None or \
                    board[2][0] is 'x' and board[0][2] is 'x' and board[1][1] is None \
         else 0

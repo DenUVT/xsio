@@ -110,7 +110,8 @@ def draw_status():
 
 def check_win():
     global board, winner, draw
-
+    if winner == 'x':
+        return None
     # checking for winning rows
     for row in range(0, 3):
         if (board[row][0] == board[row][1] == board[row][2]) and (board[row][0] is not None):
@@ -230,42 +231,42 @@ def drawXO(row, col):
 
 
         check_win()
+        if winner != 'x':
+            XO = 'o'
 
-        XO = 'o'
+            list_score = []
+            XY = []
+            for i in generateNextMoves(board):
+                for j in i:
+                    print(j)
+                list_score.append(hfunction(i))
+            # for i in range(0, 3):
+            #     for j in range(0, 3):
 
-        list_score = []
-        XY = []
-        for i in generateNextMoves(board):
-            for j in i:
-                print(j)
-            list_score.append(hfunction(i))
-        # for i in range(0, 3):
-        #     for j in range(0, 3):
-
-        XY = generateNextMovesXY(board)
-        print(XY)
-
-
+            XY = generateNextMovesXY(board)
+            print(XY)
 
 
-        print(list_score)
 
-        for i in range(0,len(list_score)):
-            if list_score[i] == max(list_score):
-                location=XY[i]
-                print(XY[i])
-                break
-        #drawXO(location[0]+1,location[1]+1)
-        #XO='o'
-        posx=location[0]+1
-        posy=location[1]+1
-        print(location)
-        print(posx,posy)
-        drawXO(posx, posy)
-        #screen.blit(o_img, (posy, posx))
-        #screen.blit(o_img, (posy, posx))
-        #check_win()
-        #XO='o'
+
+            print(list_score)
+
+            for i in range(0,len(list_score)):
+                if list_score[i] == max(list_score):
+                    location=XY[i]
+                    print(XY[i])
+                    break
+            #drawXO(location[0]+1,location[1]+1)
+            #XO='o'
+            posx=location[0]+1
+            posy=location[1]+1
+            print(location)
+            print(posx,posy)
+            drawXO(posx, posy)
+            #screen.blit(o_img, (posy, posx))
+            #screen.blit(o_img, (posy, posx))
+            #check_win()
+            #XO='o'
 
 
 
